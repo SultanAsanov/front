@@ -1,0 +1,29 @@
+#main {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:1em;
+}
+
+.card img {
+  display:block;
+  width:auto;
+  height: 250px;
+}
+
+.card {
+  border:1px solid:#BABABA;
+  border-radius:0.5em;
+  box-shadow: 0.3em 0.3em 1em #BABABA;
+}
+
+.info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.meta {
+  display:flex;
+  flex-flow: row;
+  justify-content: space-space-between;
+  margin:0 1em;
+}
